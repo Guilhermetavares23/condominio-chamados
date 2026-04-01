@@ -1,1 +1,32 @@
-
+[
+  {
+    "id": 1,
+    "morador": "João Silva",
+    "tipo": "manutenção",
+    "descricao": "Vazamento na pia da cozinha",
+    "status": "aberto",
+    "historico": [
+      {
+        "data": "2026-04-01",
+        "acao": "Chamado criado"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "morador": "Maria Souza",
+    "tipo": "limpeza",
+    "descricao": "Corredor sujo no 2º andar",
+    "status": "em andamento",
+    "historico": [
+      {
+        "data": "2026-04-01",
+        "acao": "Chamado criado"
+      },
+      {
+        "data": "2026-04-01",
+        "acao": "Status alterado para em andamento"
+      }
+    ]
+  }
+]
